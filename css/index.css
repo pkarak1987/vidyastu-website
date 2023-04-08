@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: url(https://media.istockphoto.com/id/1166419449/vector/laptop-and-book-low-poly-vector-illustration.jpg?s=612x612&w=0&k=20&c=dIYnHoAKhXljO-p08PS149fkBezQUa_Rkt5nbBQ7AVE=);
+    padding: 50px;
+
+ 
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.btn {
+    background-color: red;
+    border-radius: 18px;
+    padding: 15px 20px;
+    
+}
+
+
+.hero-image{
+    height: 560px;
+    width: 100%;
+}
+.course-logo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+.course-logo{
+    text-align: center;
+    padding: 50px;
+}
+
+.technology {
+    
+    padding: 50px;
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg);
+    
+
+}
+
+
+
+.technology h1{
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.technology .btn{
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.students {
+    text-align: center;
+    padding: 50px;
+    color: #0084D6;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.students-logo {
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+}
+ 
+.student-placed {
+    text-align: center;
+    padding: 50px;
+    color: #0084D6;
+    font-size: 32px;
+    font-weight: bold;
+
+   
+}
+.student-image {
+    text-align: center;
+    padding: 20px;
+    
+}
+.student-image img {
+    height: 250px;
+    width: 205px;
+    padding: 10px;
+}
+.key {
+    text-align: center;
+    padding: 50px;
+    color: #0084D6;
+    font-size: 32px;
+    font-weight: bold;
+   
+}
+.key-image {
+   padding-right: 30px;
+   display: flex;
+   justify-content: center;
+
+}
+.key-image img {
+    height: 400px;
+    width: 800px;
+    
+}
+
+.key-image ul li {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+
+}
+.key-image li {
+    padding: 15px;
+
+}
+.key-image ul{
+    align-items: center;
+}
+.card {
+    background-color: #f5f7f9;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.our-courses{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.our-courses-heading{
+    font-size: 40px;
+    color: #0084D6;
+    padding: 10px;
+}
+
+.card img {
+width: 100px;
+border-radius: 5px;
+
+}
+
+
+.card .btn{
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card p{
+    margin: 20px 0;
+    color: rgb(128, 126, 131);
+}
+
+.card-image {
+    display: flex;
+}
+
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    border: 10px;
+    border-color: #0084D6;
+
+}
+footer h1{
+    margin: 20px;
+}
+footer p {
+    margin: 5px;
+}
+footer section {
+    margin: 3%;
+    padding: 5px;
+}
+
+
